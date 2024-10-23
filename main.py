@@ -79,7 +79,6 @@ def main():
         image_placeholder.image(img, caption="Detected Colors", use_column_width=True)
 
     cam.release()
-    cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     main()
