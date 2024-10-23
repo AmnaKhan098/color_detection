@@ -78,7 +78,7 @@ def main():
         img = Image.fromarray(new_frame)
         image_placeholder.image(img, caption="Detected Colors", use_column_width=True)
 
-      st.image(new_frame, channels="BGR")
+        st.image(new_frame, channels="BGR")
 
 if __name__ == "__main__":
     main()
